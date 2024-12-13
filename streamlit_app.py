@@ -28,7 +28,7 @@ st.success("모델이 성공적으로 로드되었습니다!")
 # 모델의 분류 라벨 출력
 labels = learner.dls.vocab
 #st.write(labels)
-st.title(f"이미지 분류기 (Fastai) - 분류 라벨: {'정상세포, 초기암세포, 말기암세포 '.join(labels)}")
+st.title(f"이미지 분류기 (Fastai) - 분류 라벨: {', '.join(labels)}")
 
 # 파일 업로드 컴포넌트 (jpg, png, jpeg, webp, tiff 지원)
 uploaded_file = st.file_uploader("이미지를 업로드하세요", type=["jpg", "png", "jpeg", "webp", "tiff"])
