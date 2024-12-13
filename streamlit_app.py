@@ -5,10 +5,10 @@ import streamlit as st
 import pandas as pd
 
 # 1. 제목
-st.title("Streamlit 기본 예제 페이지")
+st.title("손예소의 스트림릿 서비스")
 
 # 2. 부제목
-st.subheader("이 페이지는 다양한 Streamlit 기능을 보여줍니다.")
+st.subheader("정상세포와 암세포 분류 서비스")
 
 # 3. 판다스 데이터프레임 기반 표 출력
 df = pd.DataFrame({
@@ -52,7 +52,7 @@ st.markdown(
 
 # 6. 이미지 표시
 st.write("이미지 표시 예제")
-st.image("https://www.streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png", caption="Streamlit 로고")
+st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBarulKtcWODPEx71P1EesgV6_AHm5WMDVMg&s", caption="Streamlit 로고")
 
 # 7. 유튜브 링크 (썸네일 표시)
 st.write("유튜브 동영상 예제")
